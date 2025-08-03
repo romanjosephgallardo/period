@@ -8,12 +8,20 @@ import './App.css'
 import './index.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [uploadedImage, setUploadedImage] = useState(null);
+
+  const handleImageUpload = (imageData) => {
+    setUploadedImage(imageData);
+  };
 
   return (
     <>
       <Header />
-      <ImageUpload />
+      <ImageUpload 
+        onImageUpload={handleImageUpload}
+        hasImage={!!uploadedImage}
+        uploadedImage={uploadedImage}
+      />
       <DotControls />
       <Canvas />
     </>

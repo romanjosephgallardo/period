@@ -5,6 +5,7 @@
     /* Color Palette */
     --rose-pink: #ff7fdd;
     --light-rose-pink: #ff8ee1;
+    --low-opacity-pink: rgba(255, 127, 221, 0.5);
     --white-bg: #ffffff;
     --black-text: #000000;
     --electric-pink: #FF69B4;
