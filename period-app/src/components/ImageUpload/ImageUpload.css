@@ -55,7 +55,7 @@
     align-items: center;
 }
 
-.image-preview h6{
+.button-texts h6{
     font-family: var(--hwt-slab-antique), serif;
     color: var(--rose-pink);
     font-weight: 300;
@@ -76,18 +76,30 @@
     padding: 10px 24px;
     font-size: var(--font-small);
     background-color: white;
-    color: var(--white-bg);
+    color: var(--rose-pink);
     border: 2px solid var(--rose-pink);
     border-radius: 3px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
     letter-spacing: 0.8px;
 }
 
 .button-secondary:hover {
-    background-color: var(--electric-pink);
+    background-color: var(--rose-pink);
+    color: white;
+    border: 2px solid var(--rose-pink);
 }
 
+.button-texts h6 {
+    font-family: var(--hwt-slab-antique), serif;
+    color: inherit; /* This makes it inherit the button's color */
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+/* For error message */
 .error-message {
     margin-bottom: 10px;
     padding: 8px 16px;

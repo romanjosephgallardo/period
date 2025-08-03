@@ -75,7 +75,9 @@ const ImageUpload = ({ onImageUpload, hasImage, uploadedImage }) => {
             className="button-secondary"
             onClick={() => fileInputRef.current?.click()}
           >
-            <h6>Change Image</h6>
+            <div className="button-texts">
+              <h6>Change Image</h6>
+            </div>
           </button>
         </div>
       )}
