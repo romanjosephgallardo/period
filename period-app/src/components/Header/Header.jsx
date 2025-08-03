@@ -8,7 +8,6 @@ const Header = () => {
   return (
     <div className = "header">
       <h1> PERIOD. </h1>
-      <h3> Add your image.</h3>
     </div>
   )
 }
