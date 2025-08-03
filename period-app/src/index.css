@@ -4,10 +4,10 @@
 
     /* Color Palette */
     --rose-pink: #ff7fdd;
+    --light-rose-pink: #ff8ee1;
     --white-bg: #ffffff;
     --black-text: #000000;
     --electric-pink: #FF69B4;
-    --deep-black: #000000;
 
     /* Font Sizes for texts*/
     --font-smallest: 12px;
@@ -43,6 +43,7 @@ body {
     padding: 0;
     font-family: var(--hwt-slab-antique), sans-serif;
     color: var(--rose-pink);
-    text-transform: uppercase;
     letter-spacing: 0.8px;
+    text-align: center; 
 }
+

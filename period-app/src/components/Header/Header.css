@@ -1,0 +1,15 @@
+.header h1{
+    font-size: var(--font-largest);
+    color: var(--rose-pink);
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    padding: 20px 0px 0px 0px;
+    margin-bottom: -15px;
+}
+
+.header h3 {
+    font-size: var(--font-large);
+    color: var(--light-rose-pink);
+    padding: 0px 0px 10px 0px;
+    margin-bottom: 15px;
+}

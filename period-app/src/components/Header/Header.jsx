@@ -1,9 +1,14 @@
 import React from 'react'
+import './Header.css'
+import '../../index.css'  
+
+
 
 const Header = () => {
   return (
-    <div>
-      <h1>Header Component</h1>
+    <div className = "header">
+      <h1> PERIOD. </h1>
+      <h3> Add your image.</h3>
     </div>
   )
 }
